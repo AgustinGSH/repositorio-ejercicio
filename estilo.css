@@ -1,0 +1,142 @@
+header, section, footer {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+header	{
+		height: 150px;
+		background-color: blue;
+}
+
+#marca 	{
+		height: 80px;
+		width: 300px;
+		background-color: bisque;
+		float: left;
+		margin: 10px;
+		margin-left: 40px;
+}
+
+
+
+#botonera 	{
+		height: 50px;
+		width: 600px;
+		background-color: cyan;
+		float: left;
+		margin: 10px;
+		margin-top: 0px;
+		margin-left: 40px;
+}
+
+
+#section1 {
+		height: 500px;
+		background-color: pink;
+}
+
+#caja_a {
+		width: 480px;
+		height: 250px;
+		background-color: red;
+
+}
+
+#caja_b {
+		width: 480px;
+		height: 125px;
+		background-color: black;
+		float: right;
+}
+#caja_c {
+		width: 480px;
+		height: 125px;
+		background-color: yellow;
+		clear: right;
+
+}
+
+#section2 {
+		height: 500px;
+		background-color: seagreen;
+}
+
+#caja_d	{
+		width: 820px;
+		height: 150px;
+		background-color: grey;
+		margin: auto;
+
+
+}
+
+.caja_sec2{
+			height: 300px;
+			width: 300px;
+			background-color: orange;
+			float: left;
+			margin: 10px;
+
+}
+
+
+
+
+#section3 {
+		height: 500px;
+		background-color: yellow;
+}
+
+#caja_e {
+		width: 820px;
+		height: 150px;
+		background-color: blue;
+		margin: auto;
+
+}
+
+#caja_f	{
+		width: 500px;
+		height: 100px;
+		background-color: brown;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+
+}
+
+#caja_g {
+		width: 820px;
+		height: 150px;
+		background-color: blue;
+		margin: auto;
+}
+
+
+
+
+footer {
+		height: 80px;
+		background-color: pink;
+}
+
+#caja_h {
+		height: 60px;
+		width: 650px;
+		background-color: red;
+		float: left;
+		margin: 10px;
+
+
+}
+
+#caja_i	{
+		height: 60px;
+		width: 250px;
+		background-color: red;
+		float: right;
+		margin: 10px;
