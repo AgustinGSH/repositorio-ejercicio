@@ -1,3 +1,9 @@
+body	{
+		font-family: arial, helvetica, sans-serif;
+}
+
+
+
 header, section, footer {
 		width: 960px;
 		margin-left: auto;
@@ -7,30 +13,61 @@ header, section, footer {
 
 header	{
 		height: 150px;
-		background-color: blue;
+		background-color: darkblue;
 }
 
 #marca 	{
 		height: 80px;
 		width: 300px;
-		background-color: bisque;
 		float: left;
 		margin: 10px;
 		margin-left: 40px;
+		color: darkblue;
+		background-color: pink;
+		border-radius: 10px 50px;
+
+}
+
+h1 		{
+		margin-left: 50px;
 }
 
 
+#botonera	ul li a:hover 	{
+		color: hotpink;
+
+}
 
 #botonera 	{
 		height: 50px;
 		width: 600px;
-		background-color: cyan;
 		float: left;
 		margin: 10px;
-		margin-top: 0px;
+		margin-top: -10px;
 		margin-left: 40px;
+
 }
 
+ul 			{
+		list-style: none;
+}
+
+li  		{
+		float: left;
+
+}
+
+a 			{
+		text-decoration: none;
+		display: block;
+		padding: 10px 20px;
+		color: pink;
+		border: 2px pink solid;
+		border-radius: 10px 50px;
+
+
+
+}
 
 #section1 {
 		height: 500px;
@@ -60,7 +97,7 @@ header	{
 
 #section2 {
 		height: 500px;
-		background-color: seagreen;
+		background-color: bisque;
 }
 
 #caja_d	{
@@ -68,8 +105,25 @@ header	{
 		height: 150px;
 		background-color: grey;
 		margin: auto;
+		background: url(imagenes/joyas7.jpg) no-repeat bottom;
 
 
+}
+
+h2		{
+		padding-top: 45px;
+		text-align: center;
+		font-size: 60px;
+		color: hotpink;
+
+
+}
+
+h3		{
+		text-align: center;
+		color: hotpink;
+		font-size: 28px;
+		
 }
 
 .caja_sec2{
@@ -78,9 +132,21 @@ header	{
 			background-color: orange;
 			float: left;
 			margin: 10px;
+			background: url(imagenes/joyas1.jpg);
 
 }
 
+.caja_sec2 li 	{
+				color: hotpink;
+				font-size: 25px;
+				text-shadow: 15px 3px 15px;
+				padding: 10px 15px;
+				justify-items: left;
+				margin-left: 80px;
+
+
+				
+}
 
 
 
@@ -121,22 +187,230 @@ header	{
 
 footer {
 		height: 80px;
-		background-color: pink;
+		background-color: darkblue;
 }
+
 
 #caja_h {
 		height: 60px;
 		width: 650px;
-		background-color: red;
+		background-color: darkblue;
 		float: left;
 		margin: 10px;
+		background: webrit-linear-gradient(left, #ff0000 20% #00f000);
+}
+
+
+
+#contact {
+		color: pink;
+		text-decoration: none;
+		display: block;
+		padding: 10px 20px;
+		color: pink;
+		border: 2px pink solid;
+		border-radius: 10px 50px;
+		margin-bottom: 20px;
 
 
 }
 
+
 #caja_i	{
 		height: 60px;
 		width: 250px;
-		background-color: red;
+		background-color: darkblue;
 		float: right;
 		margin: 10px;
+		
+
+		}
+
+@media all and (min-width:600px) and (max-width: 1023px) {
+
+	
+
+	header, section, footer {
+			width: 580px;
+
+	}
+
+	header	{
+			height: 180px;
+	}
+
+	#marca 	{
+			height: 60px;
+			
+			margin: 10px;
+	}
+
+	h1 		{
+			margin-left: 50px;
+	}
+
+
+	#botonera	ul li a:hover 	{
+			color: hotpink;
+
+	}
+
+	#botonera 	{
+			height: 50px;
+			width: 560px;
+			float: left;
+			margin: 10px;
+			margin-top: 10px;
+			margin-left: 40px;
+
+	}
+
+	ul 			{
+			list-style: none;
+	}
+
+	li  		{
+			float: left;
+
+	}
+
+	a 			{
+
+			display: block;
+			padding: 10px 20px;
+			
+
+	}
+
+	#section1 {
+			height: 500px;
+			
+	}
+
+	#caja_a {
+			width: 290px;
+			height: 250px;
+
+	}
+
+	#caja_b {
+			width: 290px;
+			height: 125px;
+			float: right;
+	}
+	#caja_c {
+			width: 290px;
+			height: 125px;
+			clear: right;
+
+	}
+
+	#section2 {
+			height: 600px;
+	}
+
+	#caja_d	{
+			width: 480px;
+			height: 150px;
+			margin: auto;
+			
+
+
+	}
+
+	h2		{
+			padding-top: 45px;
+			text-align: center;
+
+
+
+
+	}
+
+	h3		{
+			text-align: center;
+			
+	}
+
+	.caja_sec2{
+				height: 430px;
+				width: 170px;
+				float: left;
+				margin: 10px;
+
+	}
+
+	.caja_sec2 li 	{
+					padding: 10px 15px;
+					justify-items: left;
+					margin-left: 30px;
+					font-size: 22px;
+
+					
+	}
+
+
+
+	#section3 {
+			height: 500px;
+			
+	}
+
+	#caja_e {
+			width: 480px;
+			height: 150px;
+			
+
+	}
+
+	#caja_f	{
+			width: 300px;
+			height: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			margin-bottom: 50px;
+
+
+	}
+
+	#caja_g {
+			width: 480px;
+			height: 150px;
+	}
+
+
+
+
+	footer {
+			height: 80px;
+	}
+
+
+	#caja_h {
+			height: 60px;
+			width: 200px;
+			float: left;
+			margin: 10px;
+	}
+
+
+
+	#contact {
+			
+			display: block;
+			padding: 10px 20px;
+		
+
+	}
+#caja_i	{
+		height: 40px;
+		width: 200px;
+		background-color: darkblue;
+		float: right;
+		margin: 10px;
+		
+
+		}
+
+}
